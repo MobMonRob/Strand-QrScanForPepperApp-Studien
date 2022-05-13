@@ -6,11 +6,6 @@ import java.net.*;
 import java.io.*;
 import java.util.Date;
 
-/**
- * This program demonstrates a simple TCP/IP socket client.
- *
- * @author www.codejava.net
- */
 public class QrScanClient<vacStatus> extends AsyncTask<Void,Void,Object> {
 
     private boolean vacStatus;
